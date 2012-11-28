@@ -150,6 +150,9 @@ h4 {
 body > section, body > footer {
   max-width: $width;
   margin: 0 auto;
+  @media #{$iphone-query} {
+    margin: 0 5px;
+  } 
 }
 
 // Header
